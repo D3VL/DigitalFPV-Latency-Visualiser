@@ -197,7 +197,6 @@ function displayFlightData(flightData) {
                 label: "Bitrate",
                 data: [...flightData.map(i => i.data.bitrate)],
                 borderColor: '#ffd166',
-                hidden: true,
             }
         ]
     }
